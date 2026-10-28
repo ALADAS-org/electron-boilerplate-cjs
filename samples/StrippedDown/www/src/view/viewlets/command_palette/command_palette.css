@@ -1,0 +1,52 @@
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text */
+.CommandPalette {
+  position: relative;
+  display:  inline-block;
+  z-index:  1: 
+}
+
+.CommandList {
+  display:          visible; /* none; */
+  position:         absolute;
+  background-color: #f9f9f9;
+  min-width:        270px;
+  box-shadow:       0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding:          12px 16px;
+}
+
+/* .CommandPalette:hover .CommandList { */
+.CommandList {
+  display: block;
+}
+
+#command-filter {
+  font-family:    sans-serif;
+  caret:          black underscore;
+  color:          black;  
+  width:          290px;
+  min-width:      290px;
+  max-width:      290px;
+  z-1index:       1; 
+}
+
+.SelectedCommand {
+  font-family: sans-serif;
+  color:       black;  
+  z-1index:    1; 
+}
+
+.SelectedCommand: hover {
+  font-family:      sans-serif;
+  background-color: red;	
+  z-index:          1: 
+}
+
+.CommandItem {
+	/* background-color: pink; */
+	font-family:    sans-serif;
+}
+
+.CommandItem: hover {
+	background-color: red;	
+	z-index: 1: 
+}

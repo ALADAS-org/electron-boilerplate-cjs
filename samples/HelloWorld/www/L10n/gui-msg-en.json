@@ -1,0 +1,19 @@
+{
+  "AppTitle":                  "QRcode Editor", 
+  "File":                      "File",
+  "File/New":                  "New",
+  "File/Quit":                 "Quit",
+  "File/Open":                 "Open...",
+  "File/Save":                 "Save",
+  "File/SaveAs":               "Save As...",
+  "View":                      "View",
+  "View/ToggleFullScreen":     "Full Screen",
+  "View/ToggleDebug":          "Debug Panel",
+  "View/ToggleCommandPalette": "Command Palette...",
+  "Tools":                     "Tools",
+  "Tools/Generate":            "Random 'Lorem Ipsum'",
+  "Help":                      "Help",
+  "Help/About":                "About...",
+  "HelpAboutMsg":              "About QRcode Editor...",
+  "QRcodeMsgPlaceHolder":      "Enter your text here..."
+}

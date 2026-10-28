@@ -1,2 +1,1 @@
-# electron-boilerplate-cjs
-A boilerplate for ElectronJS (CommonJS version)
+## electron-boilerplate-cjs 0.0.1

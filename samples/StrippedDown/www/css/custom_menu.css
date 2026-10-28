@@ -1,0 +1,58 @@
+.MenubarUL {
+  list-style-type:  none;
+  margin:           0;
+  padding:          0;
+  overflow:         hidden;
+  background-color: #38444d;
+}
+
+.MenubarLI {
+  float: left;
+}
+
+.MenubarLI .MenubarA, .DropButton {
+  display:     inline-block;
+  font-family: sans-serif;
+  font-size:   14px;
+  color:       white;
+  text-align:  center;
+  /* padding:     14px 16px; */
+  padding:     9px 9px;
+  text-decoration: none;
+}
+
+.MenubarLI .MenubarA:hover, .TopMenuItem:hover .DropButton {
+  background-color: #b94444;
+}
+
+.MenubarLI .TopMenuItem {
+  display: inline-block;
+}
+
+.SubMenuItem {
+  display:          none;
+  font-family:      sans-serif;
+  font-size:        12px;
+  position:         absolute;
+  background-color: #d5d5d5; /* #f9f9f9; */
+  min-width:        160px;
+  box-shadow:       0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.SubMenuItem .MenubarA {
+  color:           black;
+  /* padding:      12px 16px; */
+  padding:         9x 9px;
+  
+  text-decoration: none;
+  display:         block;
+  text-align:      left;
+}
+
+.SubMenuItem .MenubarA:hover 
+{ background-color: #F5F5DC; /*#f1f1f1;*/ }
+
+.TopMenuItem:hover .SubMenuItem {
+  display: block;
+}

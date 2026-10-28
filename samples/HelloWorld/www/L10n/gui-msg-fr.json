@@ -1,0 +1,19 @@
+{
+  "AppTitle":                  "QRcode Editor",   
+  "File":                      "Fichier",
+  "File/New":                  "Nouveau",
+  "File/Open":                 "Ouvrir...",
+  "File/Save":                 "Enregistrer",
+  "File/SaveAs":               "Enregistrer Sous...",
+  "File/Quit":                 "Quitter",
+  "View":                      "Affichage",
+  "View/ToggleFullScreen":     "Plein Ecran",
+  "View/ToggleDebug":          "Panneau de Debug",
+  "View/ToggleCommandPalette": "Palette de Commandes...",
+  "Tools":                     "Outils",
+  "Tools/Generate":            "'Lorem Ipsum' aléatoire",
+  "Help":                      "Aide",
+  "Help/About":                "A propos...",
+  "HelpAboutMsg":              "A propos de QRcode Editor...",
+  "QRcodeMsgPlaceHolder":      "Entrez votre texte ici..."  
+}

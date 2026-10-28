@@ -1,0 +1,12 @@
+{
+  "AppTitle":                  "StrippedDown", 
+  "File":                      "File",
+  "File/Quit":                 "Quit",
+  "View":                      "View",
+  "View/ToggleFullScreen":     "Full Screen",
+  "View/ToggleDebug":          "Debug Panel",
+  "View/ToggleCommandPalette": "Command Palette...",
+  "Help":                      "Help",
+  "Help/About":                "About...",
+  "HelpAboutMsg":              "About StrippedDown..."
+}

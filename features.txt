@@ -1,0 +1,42 @@
+=============================   Electron Boilerplate features =============================
+2025/06/18
+
+--------------- ToDo ---------------
++ 'Command Palette' (cf VS Code) : commençé, manque 'filtre'
++ Onglets => File/New Close ...
++ Tools/Options: dynamic dialog with typed fields
++ Build exe installer f: dynamic dialog with typed fieldsor 'Inno Setup'
++ Samples: 'QR code'
+----- ToDo -----
+
+ 
+--------------- Done ---------------
++ Main Window title:
+  - Get application version from 'package.json' and display it in main windows's title
+	
++ Events	
+  - Close Main Window with "title bar" close buton (X) 
+  - Calls same command (AppQuitCmd) when closing with X or File/Quit
+  
++ Prevent from starting 2 instances of 'Electron Boilerplate' application
+
++ 'html_components' (eg. 'Main Toolbar'): dynamic Ajax load of Html entities with 'w3-include-html' attribute
+  
++ CSS
+
++ Window Menu (?? Json)  
+  - Show/Hide 'DevTools'
+  - Close Main Window with "File/Quit"  
+  - Localization ('L10n') of Window Menu 
+  - 'Json' main menu template: remplaçé par 'HTML MenuBar'
+  - HTML MenuBar (instead of ElectronJS native MenuBar) 
+  
++ Commands: AppQuitCmd, ToggleDebugCmd, HelpAboutCmd  
+  
++ Main Toolbar  
+  - Callbacks for 'DevTools' icon in Toolbar
+  
++ console.log(): Color traces for Server (Black background) and Renderer (White background)
+
++ Popups: choose library: 'izToast' 
+----- Done -----

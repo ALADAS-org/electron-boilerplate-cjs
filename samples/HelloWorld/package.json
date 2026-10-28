@@ -1,0 +1,35 @@
+{
+  "name": "electron-byof-helloworld",
+  "version": "0.0.1",
+  "description": "Sample for 'ElectronJS BYOF': HelloWorld",
+  "main": "./www/src/server/electron_main.js",
+  "scripts": {
+    "start": "electron .",
+    "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALADAS-org/electron-byof.git"
+  },
+  "keywords": [
+    "electron",
+    "BYOF",
+    "viewlet",
+	"CJS",
+    "localization",
+    "GUI"
+  ],
+  "author": "Michel Kern and Daniel Rodet",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ALADAS-org/electron-byof/issues"
+  },
+  "homepage": "https://github.com/ALADAS-org/electron-byof#readme",
+  "dependencies": {
+    "app-root-path": "^3.1.0"    
+  },
+  "devDependencies": {
+    "electron": "^36.5.0"
+  }
+}

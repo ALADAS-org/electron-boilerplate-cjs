@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="UTF-8"/> -->
+	<title>Hello World</title>
+	
+	<!-- ----------------- Third party libraries ----------------- -->
+	<script type="text/javascript" src="lib/jquery-3.6.3.min.js"></script>		
+    <link rel="stylesheet" type="text/css" href="css/iziToast.css">
+    <script type="text/javascript" src="lib/iziToast.min.js"></script>
+	<!-- ----------------- Third party libraries -->	
+	
+	<!-- ----------------- Renderer prerequisite modules ----------------- -->
+	<script type="text/javascript" src="src/utils/log/konsola.js"></script>		
+	<script type="text/javascript" src="src/utils/html/html_utils.js"></script>
+	<script type="text/javascript" src="src/view/viewlet_loader.js"></script>
+	<script type="text/javascript" src="src/view/dialog_utils.js"></script>
+	
+	<script type="text/javascript" src="src/const_events.js"></script>
+	<script type="text/javascript" src="src/model/const_model_keys.js"></script>		
+	<script type="text/javascript" src="src/view/const_view.js"></script>
+    <script type="text/javascript" src="src/view/actions/abstract_action.js"></script>
+    <script type="text/javascript" src="src/view/actions/null_action.js"></script>
+    <script type="text/javascript" src="src/view/action_registry.js"></script>	
+	<script type="text/javascript" src="src/view/renderer_gui.js"></script>
+	<!-- ----------------- Renderer prerequisite modules -->	
+	
+	<link rel="stylesheet" type="text/css" href="css/custom_menu.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  
+  <body>  
+	<span id="actions-include-slot" hidden>
+	</span>
+	
+	<!-- ============================= Body ================================ -->
+	<span id="body" viewlet-html="src/view/viewlets/body/body.html"></span>
+	<script type="text/javascript" src="src/view/viewlets/body/body.js"></script>
+	<!-- =========================== Body -->
+	
+	<!-- includes all html <div> entities with 'viewlet-html' attribute -->
+	<script>ViewletLoader.This.includeViewlets();</script>
+
+    <script>ActionRegistry.This.setEventHandlers();</script>	
+  </body>
+</html>

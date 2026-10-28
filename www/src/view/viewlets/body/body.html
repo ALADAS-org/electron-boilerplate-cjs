@@ -1,0 +1,28 @@
+<p class="Title">QRcode Editor</p>
+<center>
+	<div class="SimpleText">Sample for Electron BYOF: 'QRcode Editor'</div>	
+	<br>
+	<table id="qrcode_editor_body_id" style="width: 600px">
+		<td style="width: 200px">
+			<img id="qrcode_img_id" class="QRCodeImage" width="0" height="0" alt=""
+			     src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="></img>
+		</td>
+		<td><textarea id="qrcode_msg_id" class="SimpleTextArea" 
+		              rows="7" cols="45" spellcheck="false"
+					  placeholder="Enter your text here..."></textarea>
+		</td>
+		<tr>
+		<td colspan="2">&nbsp;</td>
+		<tr>
+		<td colspan="2">
+			<center>
+				<button type="button" class="SimpleButton" style="font-size: 17px" 
+						onclick="BodyViewlet.UpdateQRcode()">&nbsp;Update QRcode&nbsp;</button>				
+				&nbsp;&nbsp;&nbsp;		
+				<button type="button" class="SimpleButton" style="font-size: 17px" 
+						onclick="window.ipcMain.CallCommand(['GenerateDocCmd'])">&nbsp;Random Lorem Ipsum&nbsp;</button>
+			</center>					
+		</td>
+	</table>
+</div>
+</center>
